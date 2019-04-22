@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA62FD52226DA19A00A13A22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA62FD51226DA19A00A13A22 /* AppDelegate.m */; };
+		EA62FD55226DA19A00A13A22 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA62FD54226DA19A00A13A22 /* ViewController.m */; };
+		EA62FD58226DA19A00A13A22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA62FD56226DA19A00A13A22 /* Main.storyboard */; };
+		EA62FD5A226DA1A000A13A22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA62FD59226DA1A000A13A22 /* Assets.xcassets */; };
+		EA62FD5D226DA1A000A13A22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA62FD5B226DA1A000A13A22 /* LaunchScreen.storyboard */; };
+		EA62FD60226DA1A000A13A22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA62FD5F226DA1A000A13A22 /* main.m */; };
+		EA62FD6A226DA1A000A13A22 /* WPGaussFuzzyViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA62FD69226DA1A000A13A22 /* WPGaussFuzzyViewTests.m */; };
+		EA62FD75226DA1A000A13A22 /* WPGaussFuzzyViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA62FD74226DA1A000A13A22 /* WPGaussFuzzyViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA62FD66226DA1A000A13A22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA62FD45226DA19A00A13A22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA62FD4C226DA19A00A13A22;
+			remoteInfo = WPGaussFuzzyView;
+		};
+		EA62FD71226DA1A000A13A22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA62FD45226DA19A00A13A22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA62FD4C226DA19A00A13A22;
+			remoteInfo = WPGaussFuzzyView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA62FD4D226DA19A00A13A22 /* WPGaussFuzzyView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WPGaussFuzzyView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA62FD50226DA19A00A13A22 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA62FD51226DA19A00A13A22 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA62FD53226DA19A00A13A22 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA62FD54226DA19A00A13A22 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA62FD57226DA19A00A13A22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA62FD59226DA1A000A13A22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA62FD5C226DA1A000A13A22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA62FD5E226DA1A000A13A22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA62FD5F226DA1A000A13A22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA62FD65226DA1A000A13A22 /* WPGaussFuzzyViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPGaussFuzzyViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA62FD69226DA1A000A13A22 /* WPGaussFuzzyViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPGaussFuzzyViewTests.m; sourceTree = "<group>"; };
+		EA62FD6B226DA1A000A13A22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA62FD70226DA1A000A13A22 /* WPGaussFuzzyViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPGaussFuzzyViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA62FD74226DA1A000A13A22 /* WPGaussFuzzyViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPGaussFuzzyViewUITests.m; sourceTree = "<group>"; };
+		EA62FD76226DA1A000A13A22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA62FD4A226DA19A00A13A22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA62FD62226DA1A000A13A22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA62FD6D226DA1A000A13A22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA62FD44226DA19A00A13A22 = {
+			isa = PBXGroup;
+			children = (
+				EA62FD4F226DA19A00A13A22 /* WPGaussFuzzyView */,
+				EA62FD68226DA1A000A13A22 /* WPGaussFuzzyViewTests */,
+				EA62FD73226DA1A000A13A22 /* WPGaussFuzzyViewUITests */,
+				EA62FD4E226DA19A00A13A22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA62FD4E226DA19A00A13A22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA62FD4D226DA19A00A13A22 /* WPGaussFuzzyView.app */,
+				EA62FD65226DA1A000A13A22 /* WPGaussFuzzyViewTests.xctest */,
+				EA62FD70226DA1A000A13A22 /* WPGaussFuzzyViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA62FD4F226DA19A00A13A22 /* WPGaussFuzzyView */ = {
+			isa = PBXGroup;
+			children = (
+				EA62FD50226DA19A00A13A22 /* AppDelegate.h */,
+				EA62FD51226DA19A00A13A22 /* AppDelegate.m */,
+				EA62FD53226DA19A00A13A22 /* ViewController.h */,
+				EA62FD54226DA19A00A13A22 /* ViewController.m */,
+				EA62FD56226DA19A00A13A22 /* Main.storyboard */,
+				EA62FD59226DA1A000A13A22 /* Assets.xcassets */,
+				EA62FD5B226DA1A000A13A22 /* LaunchScreen.storyboard */,
+				EA62FD5E226DA1A000A13A22 /* Info.plist */,
+				EA62FD5F226DA1A000A13A22 /* main.m */,
+			);
+			path = WPGaussFuzzyView;
+			sourceTree = "<group>";
+		};
+		EA62FD68226DA1A000A13A22 /* WPGaussFuzzyViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA62FD69226DA1A000A13A22 /* WPGaussFuzzyViewTests.m */,
+				EA62FD6B226DA1A000A13A22 /* Info.plist */,
+			);
+			path = WPGaussFuzzyViewTests;
+			sourceTree = "<group>";
+		};
+		EA62FD73226DA1A000A13A22 /* WPGaussFuzzyViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA62FD74226DA1A000A13A22 /* WPGaussFuzzyViewUITests.m */,
+				EA62FD76226DA1A000A13A22 /* Info.plist */,
+			);
+			path = WPGaussFuzzyViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA62FD4C226DA19A00A13A22 /* WPGaussFuzzyView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA62FD79226DA1A000A13A22 /* Build configuration list for PBXNativeTarget "WPGaussFuzzyView" */;
+			buildPhases = (
+				EA62FD49226DA19A00A13A22 /* Sources */,
+				EA62FD4A226DA19A00A13A22 /* Frameworks */,
+				EA62FD4B226DA19A00A13A22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WPGaussFuzzyView;
+			productName = WPGaussFuzzyView;
+			productReference = EA62FD4D226DA19A00A13A22 /* WPGaussFuzzyView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA62FD64226DA1A000A13A22 /* WPGaussFuzzyViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA62FD7C226DA1A000A13A22 /* Build configuration list for PBXNativeTarget "WPGaussFuzzyViewTests" */;
+			buildPhases = (
+				EA62FD61226DA1A000A13A22 /* Sources */,
+				EA62FD62226DA1A000A13A22 /* Frameworks */,
+				EA62FD63226DA1A000A13A22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA62FD67226DA1A000A13A22 /* PBXTargetDependency */,
+			);
+			name = WPGaussFuzzyViewTests;
+			productName = WPGaussFuzzyViewTests;
+			productReference = EA62FD65226DA1A000A13A22 /* WPGaussFuzzyViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA62FD6F226DA1A000A13A22 /* WPGaussFuzzyViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA62FD7F226DA1A000A13A22 /* Build configuration list for PBXNativeTarget "WPGaussFuzzyViewUITests" */;
+			buildPhases = (
+				EA62FD6C226DA1A000A13A22 /* Sources */,
+				EA62FD6D226DA1A000A13A22 /* Frameworks */,
+				EA62FD6E226DA1A000A13A22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA62FD72226DA1A000A13A22 /* PBXTargetDependency */,
+			);
+			name = WPGaussFuzzyViewUITests;
+			productName = WPGaussFuzzyViewUITests;
+			productReference = EA62FD70226DA1A000A13A22 /* WPGaussFuzzyViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA62FD45226DA19A00A13A22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "李伟鹏的MacBook";
+				TargetAttributes = {
+					EA62FD4C226DA19A00A13A22 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					EA62FD64226DA1A000A13A22 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = EA62FD4C226DA19A00A13A22;
+					};
+					EA62FD6F226DA1A000A13A22 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = EA62FD4C226DA19A00A13A22;
+					};
+				};
+			};
+			buildConfigurationList = EA62FD48226DA19A00A13A22 /* Build configuration list for PBXProject "WPGaussFuzzyView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA62FD44226DA19A00A13A22;
+			productRefGroup = EA62FD4E226DA19A00A13A22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA62FD4C226DA19A00A13A22 /* WPGaussFuzzyView */,
+				EA62FD64226DA1A000A13A22 /* WPGaussFuzzyViewTests */,
+				EA62FD6F226DA1A000A13A22 /* WPGaussFuzzyViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA62FD4B226DA19A00A13A22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA62FD5D226DA1A000A13A22 /* LaunchScreen.storyboard in Resources */,
+				EA62FD5A226DA1A000A13A22 /* Assets.xcassets in Resources */,
+				EA62FD58226DA19A00A13A22 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA62FD63226DA1A000A13A22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA62FD6E226DA1A000A13A22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA62FD49226DA19A00A13A22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA62FD55226DA19A00A13A22 /* ViewController.m in Sources */,
+				EA62FD60226DA1A000A13A22 /* main.m in Sources */,
+				EA62FD52226DA19A00A13A22 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA62FD61226DA1A000A13A22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA62FD6A226DA1A000A13A22 /* WPGaussFuzzyViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA62FD6C226DA1A000A13A22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA62FD75226DA1A000A13A22 /* WPGaussFuzzyViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA62FD67226DA1A000A13A22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA62FD4C226DA19A00A13A22 /* WPGaussFuzzyView */;
+			targetProxy = EA62FD66226DA1A000A13A22 /* PBXContainerItemProxy */;
+		};
+		EA62FD72226DA1A000A13A22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA62FD4C226DA19A00A13A22 /* WPGaussFuzzyView */;
+			targetProxy = EA62FD71226DA1A000A13A22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA62FD56226DA19A00A13A22 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA62FD57226DA19A00A13A22 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA62FD5B226DA1A000A13A22 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA62FD5C226DA1A000A13A22 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA62FD77226DA1A000A13A22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA62FD78226DA1A000A13A22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA62FD7A226DA1A000A13A22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WPGaussFuzzyView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LK.WPGaussFuzzyView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA62FD7B226DA1A000A13A22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WPGaussFuzzyView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LK.WPGaussFuzzyView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA62FD7D226DA1A000A13A22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WPGaussFuzzyViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LK.WPGaussFuzzyViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WPGaussFuzzyView.app/WPGaussFuzzyView";
+			};
+			name = Debug;
+		};
+		EA62FD7E226DA1A000A13A22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WPGaussFuzzyViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LK.WPGaussFuzzyViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WPGaussFuzzyView.app/WPGaussFuzzyView";
+			};
+			name = Release;
+		};
+		EA62FD80226DA1A000A13A22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WPGaussFuzzyViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LK.WPGaussFuzzyViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WPGaussFuzzyView;
+			};
+			name = Debug;
+		};
+		EA62FD81226DA1A000A13A22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WPGaussFuzzyViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LK.WPGaussFuzzyViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WPGaussFuzzyView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA62FD48226DA19A00A13A22 /* Build configuration list for PBXProject "WPGaussFuzzyView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA62FD77226DA1A000A13A22 /* Debug */,
+				EA62FD78226DA1A000A13A22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA62FD79226DA1A000A13A22 /* Build configuration list for PBXNativeTarget "WPGaussFuzzyView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA62FD7A226DA1A000A13A22 /* Debug */,
+				EA62FD7B226DA1A000A13A22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA62FD7C226DA1A000A13A22 /* Build configuration list for PBXNativeTarget "WPGaussFuzzyViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA62FD7D226DA1A000A13A22 /* Debug */,
+				EA62FD7E226DA1A000A13A22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA62FD7F226DA1A000A13A22 /* Build configuration list for PBXNativeTarget "WPGaussFuzzyViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA62FD80226DA1A000A13A22 /* Debug */,
+				EA62FD81226DA1A000A13A22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA62FD45226DA19A00A13A22 /* Project object */;
+}
